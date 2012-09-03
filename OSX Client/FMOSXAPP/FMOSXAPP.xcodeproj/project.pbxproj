@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA0EDBE615B16DC500B02F84 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0EDBE515B16DC500B02F84 /* Cocoa.framework */; };
+		BA0EDBF015B16DC500B02F84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA0EDBEE15B16DC500B02F84 /* InfoPlist.strings */; };
+		BA0EDBF215B16DC500B02F84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0EDBF115B16DC500B02F84 /* main.m */; };
+		BA0EDBF615B16DC500B02F84 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BA0EDBF415B16DC500B02F84 /* Credits.rtf */; };
+		BA0EDBF915B16DC500B02F84 /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0EDBF815B16DC500B02F84 /* TCAppDelegate.m */; };
+		BA0EDBFC15B16DC600B02F84 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0EDBFA15B16DC600B02F84 /* MainMenu.xib */; };
+		BA10B20E15EC20F7004206AB /* 2g.png in Resources */ = {isa = PBXBuildFile; fileRef = BA10B20C15EC20F7004206AB /* 2g.png */; };
+		BA10B20F15EC20F7004206AB /* 3g.png in Resources */ = {isa = PBXBuildFile; fileRef = BA10B20D15EC20F7004206AB /* 3g.png */; };
+		BA7BF4AE15F5691400E095F0 /* phone-number.icns in Resources */ = {isa = PBXBuildFile; fileRef = BA7BF4AD15F5691400E095F0 /* phone-number.icns */; };
+		BA7BF4B115F5695B00E095F0 /* phone-number.icns in Resources */ = {isa = PBXBuildFile; fileRef = BA7BF4B015F5695B00E095F0 /* phone-number.icns */; };
+		BACFE02E15EA3B6B00892AC6 /* TIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACFE02D15EA3B6B00892AC6 /* TIViewController.m */; };
+		BAD4FE1515F3E8B300CD2C6B /* setup.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD4FE1315F3E8B300CD2C6B /* setup.png */; };
+		BAD4FE1615F3E8B300CD2C6B /* norete.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD4FE1415F3E8B300CD2C6B /* norete.png */; };
+		BAE879C415B3718000DCCE0D /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE879C215B3718000DCCE0D /* IOBluetooth.framework */; };
+		BAE879C515B3718000DCCE0D /* IOBluetoothUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE879C315B3718000DCCE0D /* IOBluetoothUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA0EDBE115B16DC500B02F84 /* FMOSXAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMOSXAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0EDBE515B16DC500B02F84 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BA0EDBE815B16DC500B02F84 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BA0EDBE915B16DC500B02F84 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BA0EDBEA15B16DC500B02F84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA0EDBED15B16DC500B02F84 /* FMOSXAPP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FMOSXAPP-Info.plist"; sourceTree = "<group>"; };
+		BA0EDBEF15B16DC500B02F84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA0EDBF115B16DC500B02F84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA0EDBF315B16DC500B02F84 /* FMOSXAPP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMOSXAPP-Prefix.pch"; sourceTree = "<group>"; };
+		BA0EDBF515B16DC500B02F84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BA0EDBF715B16DC500B02F84 /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		BA0EDBF815B16DC500B02F84 /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+		BA0EDBFB15B16DC600B02F84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BA10B20C15EC20F7004206AB /* 2g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2g.png; sourceTree = "<group>"; };
+		BA10B20D15EC20F7004206AB /* 3g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3g.png; sourceTree = "<group>"; };
+		BA7BF4AD15F5691400E095F0 /* phone-number.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "phone-number.icns"; sourceTree = "<group>"; };
+		BA7BF4B015F5695B00E095F0 /* phone-number.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "phone-number.icns"; sourceTree = "<group>"; };
+		BACFE02C15EA3B6B00892AC6 /* TIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIViewController.h; sourceTree = "<group>"; };
+		BACFE02D15EA3B6B00892AC6 /* TIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIViewController.m; sourceTree = "<group>"; };
+		BAD4FE1315F3E8B300CD2C6B /* setup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setup.png; sourceTree = "<group>"; };
+		BAD4FE1415F3E8B300CD2C6B /* norete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = norete.png; sourceTree = "<group>"; };
+		BAE879C215B3718000DCCE0D /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		BAE879C315B3718000DCCE0D /* IOBluetoothUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetoothUI.framework; path = System/Library/Frameworks/IOBluetoothUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA0EDBDE15B16DC500B02F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE879C415B3718000DCCE0D /* IOBluetooth.framework in Frameworks */,
+				BAE879C515B3718000DCCE0D /* IOBluetoothUI.framework in Frameworks */,
+				BA0EDBE615B16DC500B02F84 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA0EDBD615B16DC500B02F84 = {
+			isa = PBXGroup;
+			children = (
+				BA7BF4B015F5695B00E095F0 /* phone-number.icns */,
+				BA0EDBEB15B16DC500B02F84 /* FMOSXAPP */,
+				BA0EDBE415B16DC500B02F84 /* Frameworks */,
+				BA0EDBE215B16DC500B02F84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0EDBE215B16DC500B02F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA0EDBE115B16DC500B02F84 /* FMOSXAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA0EDBE415B16DC500B02F84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA0EDBE515B16DC500B02F84 /* Cocoa.framework */,
+				BA0EDBE715B16DC500B02F84 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA0EDBE715B16DC500B02F84 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAE879C215B3718000DCCE0D /* IOBluetooth.framework */,
+				BAE879C315B3718000DCCE0D /* IOBluetoothUI.framework */,
+				BA0EDBE815B16DC500B02F84 /* AppKit.framework */,
+				BA0EDBE915B16DC500B02F84 /* CoreData.framework */,
+				BA0EDBEA15B16DC500B02F84 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BA0EDBEB15B16DC500B02F84 /* FMOSXAPP */ = {
+			isa = PBXGroup;
+			children = (
+				BACFE02C15EA3B6B00892AC6 /* TIViewController.h */,
+				BACFE02D15EA3B6B00892AC6 /* TIViewController.m */,
+				BA0EDBF715B16DC500B02F84 /* TCAppDelegate.h */,
+				BA0EDBF815B16DC500B02F84 /* TCAppDelegate.m */,
+				BA0EDBFA15B16DC600B02F84 /* MainMenu.xib */,
+				BA0EDBEC15B16DC500B02F84 /* Supporting Files */,
+			);
+			path = FMOSXAPP;
+			sourceTree = "<group>";
+		};
+		BA0EDBEC15B16DC500B02F84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAD4FE1315F3E8B300CD2C6B /* setup.png */,
+				BAD4FE1415F3E8B300CD2C6B /* norete.png */,
+				BA10B20C15EC20F7004206AB /* 2g.png */,
+				BA10B20D15EC20F7004206AB /* 3g.png */,
+				BA7BF4AD15F5691400E095F0 /* phone-number.icns */,
+				BA0EDBED15B16DC500B02F84 /* FMOSXAPP-Info.plist */,
+				BA0EDBEE15B16DC500B02F84 /* InfoPlist.strings */,
+				BA0EDBF115B16DC500B02F84 /* main.m */,
+				BA0EDBF315B16DC500B02F84 /* FMOSXAPP-Prefix.pch */,
+				BA0EDBF415B16DC500B02F84 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA0EDBE015B16DC500B02F84 /* FMOSXAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0EDBFF15B16DC600B02F84 /* Build configuration list for PBXNativeTarget "FMOSXAPP" */;
+			buildPhases = (
+				BA0EDBDD15B16DC500B02F84 /* Sources */,
+				BA0EDBDE15B16DC500B02F84 /* Frameworks */,
+				BA0EDBDF15B16DC500B02F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMOSXAPP;
+			productName = FMOSXAPP;
+			productReference = BA0EDBE115B16DC500B02F84 /* FMOSXAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA0EDBD815B16DC500B02F84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = a;
+			};
+			buildConfigurationList = BA0EDBDB15B16DC500B02F84 /* Build configuration list for PBXProject "FMOSXAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA0EDBD615B16DC500B02F84;
+			productRefGroup = BA0EDBE215B16DC500B02F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA0EDBE015B16DC500B02F84 /* FMOSXAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA0EDBDF15B16DC500B02F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0EDBF015B16DC500B02F84 /* InfoPlist.strings in Resources */,
+				BA0EDBF615B16DC500B02F84 /* Credits.rtf in Resources */,
+				BA0EDBFC15B16DC600B02F84 /* MainMenu.xib in Resources */,
+				BA10B20E15EC20F7004206AB /* 2g.png in Resources */,
+				BA10B20F15EC20F7004206AB /* 3g.png in Resources */,
+				BAD4FE1515F3E8B300CD2C6B /* setup.png in Resources */,
+				BAD4FE1615F3E8B300CD2C6B /* norete.png in Resources */,
+				BA7BF4AE15F5691400E095F0 /* phone-number.icns in Resources */,
+				BA7BF4B115F5695B00E095F0 /* phone-number.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA0EDBDD15B16DC500B02F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0EDBF215B16DC500B02F84 /* main.m in Sources */,
+				BA0EDBF915B16DC500B02F84 /* TCAppDelegate.m in Sources */,
+				BACFE02E15EA3B6B00892AC6 /* TIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA0EDBEE15B16DC500B02F84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0EDBEF15B16DC500B02F84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA0EDBF415B16DC500B02F84 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0EDBF515B16DC500B02F84 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BA0EDBFA15B16DC600B02F84 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0EDBFB15B16DC600B02F84 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA0EDBFD15B16DC600B02F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA0EDBFE15B16DC600B02F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA0EDC0015B16DC600B02F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMOSXAPP/FMOSXAPP-Prefix.pch";
+				INFOPLIST_FILE = "FMOSXAPP/FMOSXAPP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA0EDC0115B16DC600B02F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMOSXAPP/FMOSXAPP-Prefix.pch";
+				INFOPLIST_FILE = "FMOSXAPP/FMOSXAPP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA0EDBDB15B16DC500B02F84 /* Build configuration list for PBXProject "FMOSXAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0EDBFD15B16DC600B02F84 /* Debug */,
+				BA0EDBFE15B16DC600B02F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0EDBFF15B16DC600B02F84 /* Build configuration list for PBXNativeTarget "FMOSXAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0EDC0015B16DC600B02F84 /* Debug */,
+				BA0EDC0115B16DC600B02F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA0EDBD815B16DC500B02F84 /* Project object */;
+}
